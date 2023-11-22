@@ -23,6 +23,7 @@
     "skipLibCheck": true
   }
 }
+
 alt + shift + f - para formatar 
 # Passos para iniciar o projeto Prisma e o Prisma Client
 
@@ -77,9 +78,11 @@ main()
     process.exit(1)
 })
 
-## após criar as pastas e os arquivos routes, controllers, services
-baixar o express com os comandos 
+## Após criar as pastas e os arquivos routes, controllers, services
+baixar o express com os comandos:
+
 npm i express
+
 npm i --save-dev @types/express
 
 ## Rode com a aplicação do ts-node no terminal
