@@ -9,7 +9,7 @@ class LanceController{
     async createLance(req: Request, res: Response){
         const dados: Prisma.LanceCreateInput = req.body;
         
-        if(dados.valor !== ""){
+        if(dados.valor !== 0){
             const newlance = await LanceService.createLance(dados)
             res.status(200).json({
                 status: 'ok',
