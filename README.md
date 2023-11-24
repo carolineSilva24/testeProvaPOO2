@@ -85,6 +85,10 @@ npm i express
 
 npm i --save-dev @types/express
 
+## baixar o ejs para visualizar na porta 3000
+
+npm install ejs
+
 ## Rode com a aplicação do ts-node no terminal
 Entre no diretório em que se encontra o seu arquivo Typescript.
 cd .\src\
