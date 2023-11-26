@@ -1,4 +1,4 @@
-# testeProvaPOO2
+# testeSimuladoPOO2
 
 # Passos para iniciar o projeto Node e Typescript
 
